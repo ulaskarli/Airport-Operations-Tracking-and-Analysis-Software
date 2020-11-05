@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baggage2</folder>
+	<filename>168999-10440752.jpg</filename>
+	<path>C:\Users\berka\OneDrive\Desktop\baggage2\168999-10440752.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>739</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>baggageTruck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>295</ymin>
+			<xmax>718</xmax>
+			<ymax>599</ymax>
+		</bndbox>
+	</object>
+</annotation>

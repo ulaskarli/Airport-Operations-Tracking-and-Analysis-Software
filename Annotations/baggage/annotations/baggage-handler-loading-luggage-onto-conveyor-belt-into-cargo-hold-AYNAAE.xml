@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baggage</folder>
+	<filename>baggage-handler-loading-luggage-onto-conveyor-belt-into-cargo-hold-AYNAAE.jpg</filename>
+	<path>C:\Users\berka\OneDrive\Desktop\baggage\baggage-handler-loading-luggage-onto-conveyor-belt-into-cargo-hold-AYNAAE.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>944</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>baggagetruck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>179</ymin>
+			<xmax>618</xmax>
+			<ymax>773</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baggage2</folder>
+	<filename>depositphotos_239244046-stock-video-airport-workers-loading-luggage-to.jpg</filename>
+	<path>C:\Users\berka\OneDrive\Desktop\baggage2\depositphotos_239244046-stock-video-airport-workers-loading-luggage-to.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>608</width>
+		<height>342</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>baggageTruck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>96</ymin>
+			<xmax>432</xmax>
+			<ymax>338</ymax>
+		</bndbox>
+	</object>
+</annotation>
