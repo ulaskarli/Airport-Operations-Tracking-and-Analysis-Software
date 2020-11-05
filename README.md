@@ -11,6 +11,10 @@ We created our own dataset by using images from google and annotated them using 
   - baggagetruck
   - Boarding stairs
   - Borading Bridge
+  
+  Examples:
+  
+  ![Catering truck](/Dataset/dataset samples/catering truck)
 
 ## Detection Model
 
