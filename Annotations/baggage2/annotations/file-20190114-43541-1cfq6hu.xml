@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baggage</folder>
+	<filename>file-20190114-43541-1cfq6hu.jpg</filename>
+	<path>C:\Users\berka\OneDrive\Desktop\baggage\file-20190114-43541-1cfq6hu.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>667</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>baggagetruck</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>218</ymin>
+			<xmax>1000</xmax>
+			<ymax>616</ymax>
+		</bndbox>
+	</object>
+</annotation>
