@@ -1,0 +1,25 @@
+<annotation>
+  <folder></folder>
+  <filename>t10.jpeg</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>259</width>
+    <height>194</height>
+    <depth></depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Catering truck</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>42.69</xmin>
+      <ymin>62.57</ymin>
+      <xmax>140.89</xmax>
+      <ymax>144.9</ymax>
+    </bndbox>
+  </object>
+</annotation>
