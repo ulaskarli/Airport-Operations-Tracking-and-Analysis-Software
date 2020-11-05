@@ -14,7 +14,7 @@ We created our own dataset by using images from google and annotated them using 
   
   Examples:
   
-  ![Catering truck](/Dataset/dataset samples/catering truck)
+  [Catering truck](/Dataset/dataset samples/catering truck)
 
 ## Detection Model
 
