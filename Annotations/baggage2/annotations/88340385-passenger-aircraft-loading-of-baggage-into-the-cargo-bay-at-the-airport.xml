@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baggage</folder>
+	<filename>88340385-passenger-aircraft-loading-of-baggage-into-the-cargo-bay-at-the-airport.jpg</filename>
+	<path>C:\Users\berka\OneDrive\Desktop\baggage\88340385-passenger-aircraft-loading-of-baggage-into-the-cargo-bay-at-the-airport.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>861</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>baggagetruck</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>296</ymin>
+			<xmax>1178</xmax>
+			<ymax>802</ymax>
+		</bndbox>
+	</object>
+</annotation>

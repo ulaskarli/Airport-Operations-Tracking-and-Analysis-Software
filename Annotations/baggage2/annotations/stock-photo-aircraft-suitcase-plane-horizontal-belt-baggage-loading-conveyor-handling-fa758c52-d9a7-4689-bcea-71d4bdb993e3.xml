@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baggage</folder>
+	<filename>stock-photo-aircraft-suitcase-plane-horizontal-belt-baggage-loading-conveyor-handling-fa758c52-d9a7-4689-bcea-71d4bdb993e3.jpg</filename>
+	<path>C:\Users\berka\OneDrive\Desktop\baggage\stock-photo-aircraft-suitcase-plane-horizontal-belt-baggage-loading-conveyor-handling-fa758c52-d9a7-4689-bcea-71d4bdb993e3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>424</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>baggagetruck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>223</xmin>
+			<ymin>132</ymin>
+			<xmax>639</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+</annotation>
