@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baggage</folder>
+	<filename>luggage-loading-plane-GettyImages-458222325.png</filename>
+	<path>C:\Users\berka\OneDrive\Desktop\baggage\luggage-loading-plane-GettyImages-458222325.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2048</width>
+		<height>1152</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>baggagetruck</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>627</xmin>
+			<ymin>603</ymin>
+			<xmax>1812</xmax>
+			<ymax>1152</ymax>
+		</bndbox>
+	</object>
+</annotation>
