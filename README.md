@@ -12,9 +12,9 @@ We created our own dataset by using images from google and annotated them using 
   - Boarding stairs
   - Borading Bridge
   
-  Examples:
+Examples:
   
-  ![Total Dataset](Dataset/dataset samples/dataset_total.png)
+![Total Dataset](https://github.com/ulaskarli/Airport-Operations-Tracking-and-Analysis-Software/blob/main/Dataset/dataset%20samples/dataset_total.png)
 
 ## Detection Model
 
