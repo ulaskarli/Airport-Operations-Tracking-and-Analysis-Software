@@ -3,3 +3,4 @@ This repo is for Senior design project of Ulas Berk Karlı, Umay Bengisu Bozkurt
 
 Last update:
 - Creation of repo: 03/11/2020
+- Submission of annotated images: 05/11/2020
