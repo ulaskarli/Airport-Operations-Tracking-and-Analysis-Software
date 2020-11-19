@@ -27,3 +27,5 @@ Last update:
 - Submission of annotated images: 05/11/2020
 - Sumission of Custom Dataset-v1: 05/11/2020
 - Submission of Detection model starter code: 05/11/2020
+- Submision of Detection model training Python notebook: 19/11/2020
+- Submission of Trained Weights: 19/11/2020
