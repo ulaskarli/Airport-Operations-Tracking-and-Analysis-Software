@@ -11,6 +11,7 @@ We created our own dataset by using images from google and annotated them using 
   - baggagetruck
   - Boarding stairs
   - Borading Bridge
+  - plane
   
 Examples:
   
@@ -22,6 +23,14 @@ We are using YoloV5 from ultralytics. Following is the repo that we use for the 
 - [ultralytics Yolov5](https://github.com/ultralytics/yolov5.git)
 - [Training YoloV5 Colab](https://colab.research.google.com/drive/1gDZ2xcTOgR39tGGs-EZ6i3RTs16wmzZQ)
 
+## Usage example
+
+To use detection model:
+
+'''
+python detectGOP.py --weights /GOP/weights/best.pt --img 416 --conf 0.4 --source ../test/video --save-txt 
+'''
+
 Last update:
 - Creation of repo: 03/11/2020
 - Submission of annotated images: 05/11/2020
@@ -29,3 +38,5 @@ Last update:
 - Submission of Detection model starter code: 05/11/2020
 - Submision of Detection model training Python notebook: 19/11/2020
 - Submission of Trained Weights: 19/11/2020
+- Submission of Latest Model Weight: 02/12/2020
+- Submission of modified detection code (detectGOP.py): 02/12/2020
