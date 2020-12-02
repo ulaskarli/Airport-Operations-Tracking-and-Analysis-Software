@@ -27,9 +27,9 @@ We are using YoloV5 from ultralytics. Following is the repo that we use for the 
 
 To use detection model:
 
-'''
+```
 python detectGOP.py --weights /GOP/weights/best.pt --img 416 --conf 0.4 --source ../test/video --save-txt 
-'''
+```
 
 Last update:
 - Creation of repo: 03/11/2020
