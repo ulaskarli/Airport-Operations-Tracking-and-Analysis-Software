@@ -137,6 +137,7 @@ def plotter(dict):
     plt.ylabel("distance")
     plt.grid(True)
 
+
 def get_dist(dict,cls):
     fcls=dict["f"+str(cls)]
     dst=[]
