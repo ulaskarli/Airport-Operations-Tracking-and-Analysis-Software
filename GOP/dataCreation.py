@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import mysql.connector
+import pymysql
 
 
 # Load data
@@ -31,19 +32,14 @@ def getCSV():
                                   database='bytechde_airport_comp491')
     cursor = cnx.cursor()
 
-    sqlite_select_query = """SELECT * FROM ground_operation WHERE plane_parked <= """+""""2020-12-"""+str(21)+"""" AND plane_parked >= """+""""2020-12-"""+str(20)+"""" """
+    """conn = pymysql.connect(host='89.252.185.4', user='bytechde',
+                           password='B100Franklin123', database='bytechde_airport_comp491')
+    cursor = conn.cursor()"""
 
-    stringTest="""SELECT * FROM ground_operation WHERE plane_parked >= "2020-01-4" """
+    df_flight = pd.read_sql_query("""SELECT * FROM flight""", cnx)
 
-    query = """SELECT * FROM flight WHERE planned_departure_time <= """ + """"2020-12-""" + str(30) + """" AND planned_departure_time >= """ + """"2020-12-""" + str(1) + """" AND is_delayed = "N" """
+    print(len(df_flight.index))
 
-    print(query)
-
-    cursor.execute(query)
-
-    airports=cursor.fetchall()
-
-    print(airports.__len__())
 
 if __name__ == "__main__":
-    getCSV()
+   getCSV()
