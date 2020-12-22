@@ -1,7 +1,57 @@
 
 operations={
-    "Boarding":"boarding_started,boarding_ended",
-    "Baggage":"baggage_started ,baggage_ended",
-    "Catering": "catering_service_started ,catering_service_ended",
-    "Parking": "plane_parked ,plane_pushback",
+    "Boarding":1,
+    "Baggage":2,
+    "Catering":3,
+    "Parking":4
+}
+
+months={
+    1:"January",
+    2:"Febuary",
+    3:"March",
+    4:"April",
+    5:"May",
+    6:"June",
+    7:"July",
+    8:"August",
+    9:"September",
+    10:"October",
+    11:"November",
+    12:"December"
+}
+
+years={
+    2020:"2020",
+    2019:"2019",
+    2018:"2018",
+    2017:"2017",
+    2016:"2016",
+}
+
+standardTimes={
+    60:"60",
+    65:"65",
+    70:"70",
+    75:"75",
+    80:"80",
+    85:"85",
+    90:"90",
+    95:"95",
+    100:"100",
+    105:"105",
+    110: "110",
+    115: "115",
+    120: "120",
+    125: "125",
+    130: "130",
+    135: "135",
+    140: "140",
+    145: "145",
+    150: "150",
+    155: "155",
+    160: "160",
+    165: "165",
+    170: "170",
+    175: "175",
 }
