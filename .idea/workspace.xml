@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba3bda61-c860-44da-8431-1950eb505bd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GOP/dashboard/GOPdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/GOP/dashboard/GOPdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GOP/model/labels/1ohare.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GOP/model/labels/assaia.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GOP/model/labels/test2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GOP/model/labels/testFull.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GOP/model/labels/testFull.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GOP/model/labels/testmain_realyFast.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GOP/model/labels/vidTest1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GOP/model/labels/vidTest1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOP/model/apron_103.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOP/model/apron_b738.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GOP/model/operationTracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/GOP/model/operationTracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOP/model/vidTest1.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +29,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="3" />
           <entry key="js" value="2" />
-          <entry key="py" value="19" />
+          <entry key="py" value="21" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -43,19 +39,19 @@
           <entry key="HTML" value="3" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="19" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="8478" />
+          <entry key="py" value="8492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="8478" />
+          <entry key="Python" value="8492" />
         </counts>
       </usages-collector>
     </session>
@@ -75,67 +71,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GOP/model/yolov5/utils/general.py">
+        <entry file="file://$PROJECT_DIR$/GOP/model/gop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="90">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GOP/dashboard/GOPdata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-520">
+              <folding>
+                <element signature="e#1#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GOP/dashboard/GOPdata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#1#12#0" expanded="true" />
-                <marker date="1608835120906" expanded="true" signature="16860:16861" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GOP/model/yolov5/utils/plots.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOP/model/operationTracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3225">
-              <caret line="215" column="85" selection-start-line="215" selection-start-column="85" selection-end-line="215" selection-end-column="85" />
+            <state relative-caret-position="314">
+              <caret line="237" column="21" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <marker date="1608823108290" expanded="true" signature="8334:8336" ph="..." />
-                <marker date="1608823108290" expanded="true" signature="8360:10541" ph="..." />
-                <marker date="1608823108290" expanded="true" signature="10552:10557" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GOP/dashboard/controls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="56" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GOP/model/gop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="84" column="18" selection-start-line="84" selection-end-line="84" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1608838647377" expanded="true" signature="8334:8336" ph="..." />
+                <marker date="1608838647377" expanded="true" signature="8360:10541" ph="..." />
+                <marker date="1608838647377" expanded="true" signature="10552:10557" ph="..." />
               </folding>
             </state>
           </provider>
@@ -187,8 +154,8 @@
         <option value="$PROJECT_DIR$/GOP/dataCreation.py" />
         <option value="$PROJECT_DIR$/GOP/dashboard/controls.py" />
         <option value="$PROJECT_DIR$/GOP/model/detectGOP.py" />
-        <option value="$PROJECT_DIR$/GOP/model/operationTracker.py" />
         <option value="$PROJECT_DIR$/GOP/dashboard/GOPdata.py" />
+        <option value="$PROJECT_DIR$/GOP/model/operationTracker.py" />
       </list>
     </option>
   </component>
@@ -256,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.operationTracker">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Airport-Operations-Tracking-and-Analysis-Software" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,8 +338,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.operationTracker" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.controls" />
         <item itemvalue="Python.dataCreation" />
         <item itemvalue="Python.index" />
@@ -393,7 +360,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1259" height="693" extended-state="0" />
+    <frame x="0" y="23" width="1259" height="693" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19466881" />
@@ -401,7 +368,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933443" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,13 +386,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GOP/dashboard/navbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GOP/model/vidTest1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -447,63 +407,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/dashboard/data/OilandGasMetadata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14443">
-          <caret line="981" column="11" selection-start-line="981" selection-start-column="11" selection-end-line="981" selection-end-column="11" />
-          <folding>
-            <element signature="e#26#31#0" expanded="true" />
-            <element signature="e#15769#15775#0" expanded="true" />
-            <element signature="e#15775#15781#0" expanded="true" />
-            <element signature="e#15781#15787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/dashboard/dashApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/dashboard/homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/dashboard/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="28" selection-start-line="28" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/dashboard/navbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GOP/dashboard/data/OilandGasMetadata.html" />
+    <entry file="file://$PROJECT_DIR$/GOP/dashboard/dashApp.py" />
+    <entry file="file://$PROJECT_DIR$/GOP/dashboard/homepage.py" />
+    <entry file="file://$PROJECT_DIR$/GOP/dashboard/index.py" />
+    <entry file="file://$PROJECT_DIR$/GOP/dashboard/navbar.py" />
     <entry file="file://$PROJECT_DIR$/GOP/dataCreation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1608415576161" expanded="true" signature="777:1342" ph="..." />
           </folding>
         </state>
       </provider>
@@ -522,30 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/model/detectGOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GOP/dashboard/assets/resizing_script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/model/gop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="84" column="18" selection-start-line="84" selection-end-line="84" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,26 +450,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/model/operationTracker.py">
+    <entry file="file://$PROJECT_DIR$/GOP/dashboard/GOPdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3225">
-          <caret line="215" column="85" selection-start-line="215" selection-start-column="85" selection-end-line="215" selection-end-column="85" />
+        <state relative-caret-position="-520">
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1608823108290" expanded="true" signature="8334:8336" ph="..." />
-            <marker date="1608823108290" expanded="true" signature="8360:10541" ph="..." />
-            <marker date="1608823108290" expanded="true" signature="10552:10557" ph="..." />
+            <element signature="e#1#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOP/dashboard/GOPdata.py">
+    <entry file="file://$PROJECT_DIR$/GOP/model/detectGOP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="257">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
           <folding>
-            <element signature="e#1#12#0" expanded="true" />
-            <marker date="1608835120906" expanded="true" signature="16860:16861" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOP/model/gop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOP/model/operationTracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="237" column="21" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1608838647377" expanded="true" signature="8334:8336" ph="..." />
+            <marker date="1608838647377" expanded="true" signature="8360:10541" ph="..." />
+            <marker date="1608838647377" expanded="true" signature="10552:10557" ph="..." />
           </folding>
         </state>
       </provider>

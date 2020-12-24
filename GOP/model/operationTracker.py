@@ -217,7 +217,7 @@ def writeToDB(dict,fps):
 
 
     sqlite_select_query ="""INSERT INTO `ground_operation` (`operation_id`, `is_consecutive`, `is_boarding_stairs`, `plane_parked`, `plane_pushback`, `boarding_started`, `boarding_ended`, `catering_service_started`, `catering_service_ended`, `baggage_started`, `baggage_ended`, `created_on`, `created_by`, `modified_on`, `modified_by`, `video_file_name`) VALUES (NULL, '1', '0', """\
-+"'"+pStart+"',"+"'"+pEnd+"',"+"'"+boStrt+"',"+"'"+boEnd+"',"+"'"+cStart+"',"+"'"+cEnd+"',"+"'"+baStrt+"',"+"'"+baEnd+"', current_timestamp(), 'Apron_103_system', NULL, NULL, '')"
++"'"+pStart+"',"+"'"+pEnd+"',"+"'"+boStrt+"',"+"'"+boEnd+"',"+"'"+cStart+"',"+"'"+cEnd+"',"+"'"+baStrt+"',"+"'"+baEnd+"', current_timestamp(), 'Apron_b738_system', NULL, NULL, '')"
 
     print(sqlite_select_query)
     cursor.execute(sqlite_select_query)
@@ -235,11 +235,11 @@ def xywh2xyxy(x):
 
 def main():
     resDict=defaultdict(list)
-    strList=reader("testFull.txt")
+    strList=reader("vidTest1.txt")
     getClasses(strList,resDict)
     detect=detectOperation(resDict,0.001,0.2)
     #test(resDict,detect,"vidTest1.mp4")
-    cap = cv2.VideoCapture('/Users/ulasberkkarli/Desktop/COMP 491/vid/' + "testFull.mp4")
+    cap = cv2.VideoCapture('/Users/ulasberkkarli/Desktop/COMP 491/vid/' + "vidTest1.mp4")
     fps = int(cap.get(cv2.CAP_PROP_FPS))
     writeToDB(detect,fps)
 
