@@ -1,19 +1,70 @@
 
-import pickle
 import copy
-import pathlib
 import dash
 import math
 import datetime as dt
 import pandas as pd
-from dash.dependencies import Input, Output, State, ClientsideFunction
+from dash.dependencies import Input, Output, ClientsideFunction
 import dash_core_components as dcc
 import dash_html_components as html
 import mysql.connector
 
+operations={
+    "Boarding":1,
+    "Baggage":2,
+    "Catering":3,
+    "Parking":4
+}
 
-# Multi-dropdown options
-from GOP.dashboard.controls import operations,months,years,standardTimes
+months={
+    1:"January",
+    2:"Febuary",
+    3:"March",
+    4:"April",
+    5:"May",
+    6:"June",
+    7:"July",
+    8:"August",
+    9:"September",
+    10:"October",
+    11:"November",
+    12:"December"
+}
+
+years={
+    2020:"2020",
+    2019:"2019",
+    2018:"2018",
+    2017:"2017",
+    2016:"2016",
+}
+
+standardTimes={
+    60:"60",
+    65:"65",
+    70:"70",
+    75:"75",
+    80:"80",
+    85:"85",
+    90:"90",
+    95:"95",
+    100:"100",
+    105:"105",
+    110: "110",
+    115: "115",
+    120: "120",
+    125: "125",
+    130: "130",
+    135: "135",
+    140: "140",
+    145: "145",
+    150: "150",
+    155: "155",
+    160: "160",
+    165: "165",
+    170: "170",
+    175: "175",
+}
 
 
 app = dash.Dash(
