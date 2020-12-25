@@ -123,27 +123,6 @@ app.layout = html.Div(
             [
                 html.Div(
                     [
-                        html.Div(
-                            [
-                                html.H3(
-                                    "Ground Operations Data",
-                                    style={"margin-bottom": "0px"},
-                                ),
-                            ]
-                        )
-                    ],
-                    className="one-half column",
-                    id="title",
-                ),
-            ],
-            id="header",
-            className="row flex-display",
-            style={"margin-bottom": "25px"},
-        ),
-        html.Div(
-            [
-                html.Div(
-                    [
                         html.P(
                             "Filter by day (1-31):",
                             className="control_label",
@@ -446,12 +425,13 @@ def make_individual_figure(day_slider, month, year):
                 & (dff[op[1]] < nextDay)
                 ]
             for (index, row) in g.iterrows():
-                y_i += (row[op_table_names[3][0]] - row[op[0]]).seconds / 60
+                y_i += (row[op[0]]-row[op_table_names[3][0]]).seconds / 60
 
             if len(g.index) == 0:
                 y_tot[op[0]][ind] = y_i
             else:
                 y_tot[op[0]][ind] = y_i / len(g.index)
+                print(g.index)
             ind += 1
             y_i = 0
 
